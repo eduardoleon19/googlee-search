@@ -1,0 +1,220 @@
+:root {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.appdiv {
+  height: 100vh;
+}
+.barra {
+  width: 99.5%;
+  display: flex;
+  border: rgb(233, 233, 233);
+  border-style: solid;
+  border-width: 2px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+  padding: 0.3rem;
+}
+.barra div {
+  padding: 0.4rem 0.5rem;
+  padding-right: 0.7rem;
+  display: flex;
+  text-align: center;
+  align-items: center;
+}
+.barra div:hover {
+  background-color: rgb(233, 233, 233);
+  cursor: pointer;
+  border-radius: 20rem;
+  transition: 0.2s;
+}
+.barra a {
+  text-decoration: none;
+}
+.barra div img {
+  width: 0.9rem;
+  height: 0.9rem;
+  padding-right: 0.5rem;
+}
+.barra div p {
+  margin: 0;
+  font-size: 0.9rem;
+  color: black;
+  text-decoration: none;
+}
+.redes {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  float: right;
+  padding: 1rem;
+}
+.icon1 {
+  padding: 5px;
+}
+.text1:hover {
+  cursor: pointer;
+  text-decoration:underline ;
+  transition: 0.1s;
+}
+.text2:hover {
+  cursor: pointer;
+  text-decoration:underline ;
+  transition: 0.5s;
+}
+.icon1:hover {
+  background-color: rgb(223, 230, 236);
+  border-radius: 100%;
+  padding: 5px;
+  transition: 0.5s;
+}
+
+.search {
+  padding: 10%;
+  padding-top: 7%;
+  padding-bottom: 0.5%;
+  text-align: center;
+  width: 35rem;
+  margin: 0 25%;
+}
+
+.logogoogle {
+  width: 20rem;
+  padding: 0;
+  margin: 0;
+}
+
+.search1 {
+  border-radius: 20rem;
+  text-align: left;
+  box-shadow: 0 1px 10px 1px rgba(0, 0, 0, 0.192);
+  color: gray;
+  display: flex;
+  align-items: center;
+  padding: 0.5rem 1rem;
+}
+.icon2 {
+  padding-right: 0.3rem;
+}
+.input1 {
+  background-color:transparent;
+  font-size: 1.1rem;
+  border: 0;
+  width: 27.5rem;
+  height: 2rem;
+  outline: none;
+  /*outline:quitar el borde del input cuando lo señalas*/
+}
+.icon02 {
+  cursor: pointer;
+}
+.icon3 {
+  padding: 0 0.5rem 0 0;
+  cursor: pointer;
+}
+.icon4 {
+  cursor: pointer;
+}
+.appicons {
+  width: 100%;
+  margin-bottom: 15rem;
+}
+.appicons1 {
+  display: flex;
+  gap: 2rem;
+  margin: 0 31.7%;
+  width: 43rem;
+}
+.divapp {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 1rem;  
+}
+.appicons1 div {
+  align-items: center;
+  text-align: center;
+}
+.divapp:hover {
+  background-color: rgb(219, 219, 219);
+  transition: 0.1s;
+}
+.appicons1 div p {
+  text-align: center;
+}
+.divimg {
+  background-color: rgb(238, 238, 243);
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 3rem;
+  padding: 0.7rem;
+  margin: 20% 30% 0 30%;
+}
+
+.divimg img {
+  width: 1.3rem;
+  height: auto;
+}
+.appicons div p {
+  font-size: 0.8rem;
+}
+/*-------------------------------------*/
+.appicons2 {
+  display: flex;
+  gap: 2rem;
+  margin: 0 35.5%;
+  width: 34rem;
+}
+.divapp2 {
+  width: 7rem;
+  height: 7rem;
+  border-radius: 1rem;  
+}
+.appicons2 div {
+  align-items: center;
+  text-align: center;
+}
+.divapp2:hover {
+  background-color: rgb(219, 219, 219);
+  transition: 0.1s;
+}
+.appicons2 div p {
+  text-align: center;
+}
+.divimg2 {
+  background-color: rgb(238, 238, 243);
+  width: 1.4rem;
+  height: 1.4rem;
+  border-radius: 3rem;
+  padding: 0.7rem;
+  margin: 20% 30% 0 30%;
+}
+
+.divimg2 img {
+  width: 1.3rem;
+  height: auto;
+}
+.appicons2 div p {
+  font-size: 0.8rem;
+}
+
+.boton {
+  color: rgb(20, 20, 219);
+  display: flex;
+  gap: 0.5rem;
+  padding: 0.6rem;
+  width: 9rem;
+  box-shadow: 0 1px 5px 1px rgba(0, 0, 0, 0.192);
+  border-radius: 20rem;
+  float: right;
+  margin-right: 1rem;
+}
+.boton:hover {
+  cursor: pointer;
+  background-color: rgb(245, 249, 252);
+  transition: 0.1s;
+}
+.botontext {
+  margin: 0;
+  font-size: 0.8rem;
+}
